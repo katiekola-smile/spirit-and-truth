@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spirit &amp; Truth — Worship Night · Toronto</title>
+  <meta name="description" content="Spirit & Truth is a monthly, non-denominational worship night in Toronto — uniting the Church and reconnecting the lost to build God's Kingdom through worship, prayer and community." />
+
+  <!-- code-referenced assets (resolved via window.__resources in the standalone build) -->
+  <meta name="ext-resource-dependency" content="assets/logo-cream-transparent.png" data-resource-id="logoCream" />
+  <meta name="ext-resource-dependency" content="assets/logo-red-transparent.png" data-resource-id="logoRed" />
+  <meta name="ext-resource-dependency" content="assets/photo-crowd.jpg" data-resource-id="photoCrowd" />
+  <meta name="ext-resource-dependency" content="assets/photo-band.jpg" data-resource-id="photoBand" />
+  <meta name="ext-resource-dependency" content="assets/photo-group.jpg" data-resource-id="photoGroup" />
+  <meta name="ext-resource-dependency" content="assets/photo-hands.jpg" data-resource-id="photoHands" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;0,6..96,700;1,6..96,500&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <template id="__bundler_thumbnail" data-bg-color="#830008">
+    <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+      <rect width="1200" height="800" fill="#830008" />
+      <g fill="none" stroke="#f4edb6" stroke-width="10" stroke-linecap="round" opacity="0.92">
+        <line x1="600" y1="250" x2="600" y2="560" />
+        <line x1="470" y1="360" x2="730" y2="360" />
+      </g>
+      <text x="600" y="640" text-anchor="middle" fill="#f4edb6" font-family="Georgia, serif" font-size="66" letter-spacing="6">SPIRIT &amp; TRUTH</text>
+    </svg>
+  </template>
+
+  <div id="root"></div>
+
+  <!-- React + Babel (pinned) -->
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+
+  <!-- user-fillable image placeholders -->
+  <script src="image-slot.js"></script>
+
+  <!-- live Instagram feed (Elfsight) -->
+  <script src="https://elfsightcdn.com/platform.js" async></script>
+
+  <!-- app -->
+  <script type="text/babel" src="tweaks-panel.jsx"></script>
+  <script type="text/babel" src="sections-a.jsx"></script>
+  <script type="text/babel" src="sections-b.jsx"></script>
+  <script type="text/babel" src="app.jsx"></script>
+</body>
+</html>
