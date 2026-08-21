@@ -1,3 +1,5 @@
+import React from 'react';
+
 /* sections-a.jsx — Nav, Hero, Verse, Vision, Worship + shared helpers */
 
 /* Resolve an asset URL — uses the bundled blob (window.__resources) when present
@@ -233,4 +235,4 @@ function WorshipMeaning() {
 
 }
 
-Object.assign(window, { RES, LOGO_CREAM, LOGO_RED, LINKS, Arrow, Reveal, Nav, Hero, VerseBand, Vision, WorshipMeaning });
+export { RES, LOGO_CREAM, LOGO_RED, LINKS, Arrow, Reveal, Nav, Hero, VerseBand, Vision, WorshipMeaning };

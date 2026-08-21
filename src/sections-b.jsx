@@ -1,3 +1,6 @@
+import React from 'react';
+import { RES, LOGO_CREAM, LINKS, Arrow, Reveal } from './sections-a.jsx';
+
 /* sections-b.jsx — Structure, SetList, Foundations, Events, Connect, Churches, Instagram, Footer */
 
 /* ---- structure of the night ---- */
@@ -330,4 +333,4 @@ function Footer() {
 
 }
 
-Object.assign(window, { Structure, SetList, Foundations, Events, Connect, Churches, Instagram, Footer });
+export { Structure, SetList, Foundations, Events, Connect, Churches, Instagram, Footer };
