@@ -1,3 +1,15 @@
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+import {
+  useTweaks, TweaksPanel, TweakSection,
+  TweakRadio, TweakSelect, TweakColor, TweakToggle,
+} from './tweaks-panel.jsx';
+import { Nav, Hero, VerseBand, Vision, WorshipMeaning } from './sections-a.jsx';
+import {
+  Structure, SetList, Foundations, Events,
+  Connect, Churches, Instagram, Footer,
+} from './sections-b.jsx';
+
 /* app.jsx — composition + Tweaks */
 
 const FONT_OPTS = {
@@ -80,4 +92,4 @@ function App() {
   );
 }
 
-ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+createRoot(document.getElementById('root')).render(<App />);
